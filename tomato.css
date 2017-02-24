@@ -1,0 +1,52 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #FF6347; }
+
+p,
+.main_footer {
+  color: #888; }
+
+.color_element {
+  color: #FF6347; }
+
+.color_bg {
+  background-color: #FF6347; }
+
+.color_border {
+  border-color: #FF6347; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark h2::after {
+    background-color: #FFF; }
+
+.toggle_mnu {
+  background-color: #222; }
+
+.top_mnu a:hover {
+  color: #FF6347;
+  background-color: rgba(255, 255, 255, 0.05); }
+
+.top_mnu a {
+  letter-spacing: 4px; }
+
+.top_text h1 {
+  letter-spacing: 20px; }
+
+.top_text p {
+  letter-spacing: 2px; }
+
+.s_portfolio li {
+  color: #888;
+  letter-spacing: 2px; }
+
+.s_portfolio li.active {
+  color: #fff;
+  border-bottom: 1px solid #FF6347; }
