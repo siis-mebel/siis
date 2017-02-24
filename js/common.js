@@ -11,6 +11,12 @@ $(document).ready(function() {
 		$(this).addClass("active");
 	});
 
+	$(".popup").magnificPopup({type:"image"});
+	$(".popup_content").magnificPopup({
+		type:"inline",
+		midClick: true
+	});
+
 	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
 	$(".top_text p").animated("fadeInUp", "fadeOutDown");
 
