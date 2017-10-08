@@ -1,5 +1,4 @@
 body {
-  background: url(../img/bg.jpg) 50% 50% no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Raleway", sans-serif;
@@ -187,7 +186,8 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10; }
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.4); }
   .top_wrapper .top_descr {
     display: table-row; }
     .top_wrapper .top_descr .top_centered {
@@ -241,7 +241,7 @@ section {
 
 .portfolio_item {
   display: none;
-  padding: 0; }
+  margin-bottom: 30px; }
   .portfolio_item img {
     width: 100%; }
   .portfolio_item .port_item_cont {
@@ -252,10 +252,13 @@ section {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    padding-top: 15%;
+    padding-top: 5%;
     opacity: 0;
     -webkit-transition: all .5s;
-    transition: all .5s; }
+    transition: all .5s;
+    padding: 0 15px; }
+    .portfolio_item .port_item_cont h3 {
+      color: #fff; }
   .portfolio_item:hover .port_item_cont {
     opacity: 1; }
   .portfolio_item h3 {
@@ -286,3 +289,41 @@ section {
   .port_descr img {
     width: 100%;
     margin-top: 20px; }
+
+.contact_box {
+  margin-bottom: 30px; }
+  .contact_box h3 {
+    text-align: left;
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  .contact_box .contacts_icon {
+    font-size: 30px; }
+  .contact_box p {
+    margin-top: 5px;
+    font-size: 16px; }
+
+.main_form button {
+  border: none;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 25px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 10px;
+  float: right; }
+
+.form-group {
+  display: block;
+  margin-bottom: 20px; }
+  .form-group input,
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    line-height: 40px;
+    text-indent: 12px;
+    font-size: 12px; }
